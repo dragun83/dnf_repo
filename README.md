@@ -2,7 +2,7 @@
 Для запуска скачивания репозиториев (то что нужно распаралелить в первую очередь) можно использовать несколько контейнеров docker запущенных с параметрами
 
 ```
-docker run --rm -it -v /run/media/dragun/05D6BB7E1016B8CE/redos-repo:/repo redosrepo:73 reposync --repoid=updates7.3 --download-metadata -m --destdir=/repo
+docker run --rm -it -v <путь до локального каталога>:/repo redosrepo:73 reposync --repoid=updates7.3 --download-metadata -m --destdir=/repo
 ```
 ## СПИСОК РЕПОЗИТОРИЕВ
 - base7.3

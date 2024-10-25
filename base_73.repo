@@ -1,0 +1,8 @@
+# RedOS-Standard.repo
+#
+[base7.3]
+name=RedOS Standard - Base 7.3
+baseurl=https://repo1.red-soft.ru/redos/7.3/$basearch/os,https://mirror.yandex.ru/redos/7.3/$basearch/os,http://repo.red-soft.ru/redos/7.3/$basearch/os
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-RED-SOFT

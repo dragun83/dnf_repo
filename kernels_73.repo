@@ -1,0 +1,8 @@
+# RedOS-kernels.repo
+#
+[kernels7.3]
+name=RedOS Standard - Kernels 7.3
+baseurl=https://repo1.red-soft.ru/redos/7.3/$basearch/kernels,https://mirror.yandex.ru/redos/7.3/$basearch/kernels,http://repo.red-soft.ru/redos/7.3/$basearch/kernels
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-RED-SOFT
